@@ -1,0 +1,66 @@
+# ==========================================
+# ROS 2 (Colcon / Ament) Build Artifacts
+# ==========================================
+build/
+install/
+log/
+COLCON_IGNORE
+
+# ==========================================
+# C / C++ / CMake Output
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.la
+*.lai
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ==========================================
+# Python Cache & Package Directories
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build_py/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# ==========================================
+# ROS Bags & Log Files
+# ==========================================
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+*.log
+
+# ==========================================
+# IDEs & Editor Configuration
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+.env
